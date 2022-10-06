@@ -14,6 +14,8 @@
 		FC655CEA28EDE4A200C1B4AB /* SampleNeumorphismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CE928EDE4A200C1B4AB /* SampleNeumorphismTests.swift */; };
 		FC655CF428EDE4A200C1B4AB /* SampleNeumorphismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CF328EDE4A200C1B4AB /* SampleNeumorphismUITests.swift */; };
 		FC655CF628EDE4A200C1B4AB /* SampleNeumorphismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CF528EDE4A200C1B4AB /* SampleNeumorphismUITestsLaunchTests.swift */; };
+		FC655D0328EE799500C1B4AB /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655D0228EE799500C1B4AB /* Color+.swift */; };
+		FC655D0528EE79D000C1B4AB /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655D0428EE79D000C1B4AB /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FC655CEF28EDE4A200C1B4AB /* SampleNeumorphismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleNeumorphismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC655CF328EDE4A200C1B4AB /* SampleNeumorphismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNeumorphismUITests.swift; sourceTree = "<group>"; };
 		FC655CF528EDE4A200C1B4AB /* SampleNeumorphismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNeumorphismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC655D0228EE799500C1B4AB /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		FC655D0428EE79D000C1B4AB /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				FC655CD828EDE49B00C1B4AB /* SampleNeumorphismApp.swift */,
 				FC655CDA28EDE49B00C1B4AB /* ContentView.swift */,
+				FC655D0228EE799500C1B4AB /* Color+.swift */,
+				FC655D0428EE79D000C1B4AB /* View+.swift */,
 				FC655CDC28EDE4A200C1B4AB /* Assets.xcassets */,
 				FC655CDE28EDE4A200C1B4AB /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC655D0528EE79D000C1B4AB /* View+.swift in Sources */,
 				FC655CDB28EDE49B00C1B4AB /* ContentView.swift in Sources */,
+				FC655D0328EE799500C1B4AB /* Color+.swift in Sources */,
 				FC655CD928EDE49B00C1B4AB /* SampleNeumorphismApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

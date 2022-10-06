@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            ZStack {
+                Color.neuBackground
+                    .ignoresSafeArea()
+                VStack {
+                    Image(systemName: "forward.fill")
+                        .neumorphism(padding: 30)
+                }
+                .padding()
+            }
         }
-        .padding()
     }
 }
 
